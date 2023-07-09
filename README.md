@@ -41,6 +41,7 @@ The generated Java classes will be saved as separate files in the generated_clas
 Before running the program, you may need to modify the following configurations:
 
 Input Text File: Provide the path to the text file containing the Java class definitions. Update the textFilePath variable in the Main.java file.
+
 Output Directory: The generated Java classes will be saved in the generated_classes directory by default. You can change the output directory by updating the outputDirectory variable in the Main.java file.
 ### Example
 Let's consider an example text file classes.txt with the following content:
