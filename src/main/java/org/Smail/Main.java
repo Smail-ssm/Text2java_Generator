@@ -13,7 +13,6 @@ public class Main {
         try {
             System.out.print("Enter the path of the text file: ");
             String textFilePath = reader.readLine();
-
             String outputDirectory = getOutputDirectory();
             generateJavaFiles(textFilePath, outputDirectory);
         } catch (IOException e) {
@@ -87,8 +86,6 @@ public class Main {
                         String[] parts = line.split("\\s+");
                         String type = parts[2];
                         String variable = parts[3].substring(0, parts[3].length() - 1);
-                        System.out.println("Successf " + variable );
-
                         javaCode.append(type).append(" ").append(variable).append(", ");
                     }
                 }
