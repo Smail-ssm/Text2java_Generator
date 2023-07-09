@@ -1,0 +1,1160 @@
+public class AdminLanguage {
+    private int id;
+    private boolean isDefault;
+    private String language;
+    private String file;
+    private String name;
+    private boolean rtl;
+
+    // Getters and Setters
+}
+ 
+public class AdminUserConversation {
+    private int id;
+    private String subject;
+    private int userId;
+    private String message;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String type;
+    private String orderNumber;
+
+    // Getters and Setters
+}
+ 
+public class AdminUserMessage {
+    private int id;
+    private int conversationId;
+    private String message;
+    private int userId;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Admin {
+    private int id;
+    private String name;
+    private String email;
+    private String phone;
+    private int roleId;
+    private String photo;
+    private String password;
+    private boolean status;
+    private String rememberToken;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String shopName;
+
+    // Getters and Setters
+}
+ 
+public class AttributeOption {
+    private int id;
+    private int attributeId;
+    private String name;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Attribute {
+    private int id;
+    private int attributableId;
+    private String attributableType;
+    private String name;
+    private String inputName;
+    private int priceStatus;
+    private int detailsStatus;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class AdminLanguage {
+    private int id;
+    private boolean isDefault;
+    private String language;
+    private String file;
+    private String name;
+    private boolean rtl;
+
+    // Getters and Setters
+}
+ 
+public class AdminUserConversation {
+    private int id;
+    private String subject;
+    private int userId;
+    private String message;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String type;
+    private String orderNumber;
+
+    // Getters and Setters
+}
+ 
+public class AdminUserMessage {
+    private int id;
+    private int conversationId;
+    private String message;
+    private int userId;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Admin {
+    private int id;
+    private String name;
+    private String email;
+    private String phone;
+    private int roleId;
+    private String photo;
+    private String password;
+    private boolean status;
+    private String rememberToken;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String shopName;
+
+    // Getters and Setters
+}
+ 
+public class AttributeOption {
+    private int id;
+    private int attributeId;
+    private String name;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Attribute {
+    private int id;
+    private int attributableId;
+    private String attributableType;
+    private String name;
+    private String inputName;
+    private int priceStatus;
+    private int detailsStatus;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Banner {
+    private int id;
+    private String photo;
+    private String link;
+    private String type;
+
+    // Getters and Setters
+}
+ 
+public class BlogCategory {
+    private int id;
+    private String name;
+    private String slug;
+
+    // Getters and Setters
+}
+ 
+public class Blog {
+    private int id;
+    private int categoryId;
+    private String title;
+    private String details;
+    private String photo;
+    private String source;
+    private int views;
+    private boolean status;
+    private String metaTag;
+    private String metaDescription;
+    private String tags;
+    private Timestamp createdAt;
+
+    // Getters and Setters
+}
+ 
+public class Category {
+    private int id;
+    private String name;
+    private String slug;
+    private boolean status;
+    private String photo;
+    private boolean isFeatured;
+    private String image;
+
+    // Getters and Setters
+}
+ 
+public class ChildCategory {
+    private int id;
+    private int subcategoryId;
+    private String name;
+    private String slug;
+    private boolean status;
+
+    // Getters and Setters
+}
+ 
+public class Comment {
+    private int id;
+    private int userId;
+    private int productId;
+    private String text;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Conversation {
+    private int id;
+    private String subject;
+    private int sentUser;
+    private int receivedUser;
+    private String message;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Counter {
+    private int id;
+    private String type;
+    private String referral;
+    private int totalCount;
+    private int todaysCount;
+    private Date today;
+
+    // Getters and Setters
+}
+ 
+public class Country {
+
+    private int id;
+    private String countryCode;
+    private String countryName;
+
+    // Getters and Setters
+}
+
+public class Coupon {
+    private int id;
+    private String code;
+    private int type;
+    private double price;
+    private String times;
+    private int used;
+    private boolean status;
+    private Date startDate;
+    private Date endDate;
+
+    // Getters and Setters
+}
+
+public class Currency {
+    private int id;
+    private String name;
+    private String sign;
+    private double value;
+    private boolean isDefault;
+
+    // Getters and Setters
+}
+
+public class EmailTemplate {
+    private int id;
+    private String emailType;
+    private String emailSubject;
+    private String emailBody;
+    private int status;
+
+    // Getters and Setters
+}
+
+public class FAQ {
+    private int id;
+    private String title;
+    private String details;
+    private boolean status;
+
+    // Getters and Setters
+}
+
+public class FavoriteSeller {
+    private int id;
+    private int userId;
+    private int vendorId;
+
+    // Getters and Setters
+}
+
+public class Gallery {
+    private int id;
+    private int productId;
+    private String photo;
+
+    // Getters and Setters
+}
+
+ 
+public class GeneralSettings {
+    private int id;
+    private String logo;
+    private String favicon;
+    private String title;
+    private String headerEmail;
+    private String headerPhone;
+    private String footer;
+    private String copyright;
+    private String colors;
+    private String loader;
+    private String adminLoader;
+    private boolean isTalkTo;
+    private String talkTo;
+    private boolean isLanguage;
+    private boolean isLoader;
+    private String mapKey;
+    private boolean isDisqus;
+    private String disqus;
+    private boolean isContact;
+    private boolean isFAQ;
+    private boolean guestCheckout;
+    private boolean stripeCheck;
+    private boolean codCheck;
+    private String stripeKey;
+    private String stripeSecret;
+    private boolean currencyFormat;
+    private double withdrawFee;
+    private double withdrawCharge;
+    private double tax;
+    private double shippingCost;
+    private String smtpHost;
+    private String smtpPort;
+    private String smtpUser;
+    private String smtpPass;
+    private String fromEmail;
+    private String fromName;
+    private boolean isSMTP;
+    private boolean isComment;
+    private boolean isCurrency;
+    private String addCart;
+    private String outStock;
+    private String addWish;
+    private String alreadyWish;
+    private String wishRemove;
+    private String addCompare;
+    private String alreadyCompare;
+    private String compareRemove;
+    private String colorChange;
+    private String couponFound;
+    private String noCoupon;
+    private String alreadyCoupon;
+    private String orderTitle;
+    private String orderText;
+    private boolean isAffiliate;
+    private int affiliateCharge;
+    private String affiliateBanner;
+    private String alreadyCart;
+    private double fixedCommission;
+    private double percentageCommission;
+    private boolean multipleShipping;
+    private boolean multiplePackaging;
+    private boolean vendorShipInfo;
+    private boolean regVendor;
+    private String codText;
+    private String paypalText;
+    private String stripeText;
+    private String headerColor;
+    private String footerColor;
+    private String copyrightColor;
+    private boolean isAdminLoader;
+    private String menuColor;
+    private String menuHoverColor;
+    private boolean isHome;
+    private boolean isVerificationEmail;
+    private String instamojoKey;
+    private String instamojoToken;
+    private String instamojoText;
+    private boolean isInstamojo;
+    private boolean instamojoSandbox;
+    private boolean isPaystack;
+    private String paystackKey;
+    private String paystackEmail;
+    private String paystackText;
+    private int wholesell;
+    private boolean isCapcha;
+    private String errorBanner;
+    private boolean isPopup;
+    private String popupTitle;
+    private String popupText;
+    private String popupBackground;
+    private String invoiceLogo;
+    private String userImage;
+    private String vendorColor;
+    private boolean isSecure;
+    private boolean isReport;
+    private boolean paypalCheck;
+    private String paypalBusiness;
+    private String footerLogo;
+    private String emailEncryption;
+    private String paytmMerchant;
+    private String paytmSecret;
+    private String paytmWebsite;
+    private String paytmIndustry;
+    private int isPaytm;
+    private String paytmText;
+    private String paytmMode;
+    private boolean isMolly;
+    private String mollyKey;
+    private String mollyText;
+    private int isRazorpay;
+    private String razorpayKey;
+    private String razorpaySecret;
+    private String razorpayText;
+    private boolean showStock;
+    private boolean isMaintain;
+    private String maintainText;
+
+    // Getters and Setters
+}
+ 
+public class Language {
+    private int id;
+    private boolean isDefault;
+    private String language;
+    private String file;
+
+    // Getters and Setters
+}
+ 
+public class Message {
+    private int id;
+    private int conversationId;
+    private String message;
+    private int sentUser;
+    private int receivedUser;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Notification {
+    private int id;
+    private int orderId;
+    private int userId;
+    private int vendorId;
+    private int productId;
+    private int conversationId;
+    private boolean isRead;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class OrderTrack {
+    private int id;
+    private int orderId;
+    private String title;
+    private String text;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Order {
+    private int id;
+    private int userId;
+    private String cart;
+    private String method;
+    private String shipping;
+    private String pickupLocation;
+    private String totalQty;
+    private float payAmount;
+    private String txnid;
+    private String chargeId;
+    private String orderNumber;
+    private String paymentStatus;
+    private String customerEmail;
+    private String customerName;
+    private String customerCountry;
+    private String customerPhone;
+    private String customerAddress;
+    private String customerCity;
+    private String customerZip;
+    private String shippingName;
+    private String shippingCountry;
+    private String shippingEmail;
+    private String shippingPhone;
+    private String shippingAddress;
+    private String shippingCity;
+    private String shippingZip;
+    private String orderNote;
+    private String couponCode;
+    private String couponDiscount;
+    private String status;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
+    private String affilateUser;
+    private String affilateCharge;
+    private String currencySign;
+    private double currencyValue;
+    private double shippingCost;
+    private double packingCost;
+    private int tax;
+    private boolean dp;
+    private String payId;
+    private int vendorShippingId;
+    private int vendorPackingId;
+
+    // Getters and Setters
+}
+
+public class Package {
+    private int id;
+    private int userId;
+    private String title;
+    private String subtitle;
+    private double price;
+
+    // Getters and Setters
+}
+
+public class Page {
+    private int id;
+    private String title;
+    private String slug;
+    private String details;
+    private String metaTag;
+    private String metaDescription;
+    private boolean header;
+    private boolean footer;
+
+    // Getters and Setters
+}
+
+public class PageSettings {
+    private int id;
+    private String contactSuccess;
+    private String contactEmail;
+    private String contactTitle;
+    private String contactText;
+    private String sideTitle;
+    private String sideText;
+    private String street;
+    private String phone;
+    private String fax;
+    private String email;
+    private String site;
+    private boolean slider;
+    private boolean service;
+    private boolean featured;
+    private boolean smallBanner;
+    private boolean best;
+    private boolean topRated;
+    private boolean largeBanner;
+    private boolean big;
+    private boolean hotSale;
+    private boolean partners;
+    private boolean reviewBlog;
+    private String bestSellerBanner;
+    private String bestSellerBannerLink;
+    private String bigSaveBanner;
+    private String bigSaveBannerLink;
+    private boolean bottomSmall;
+    private boolean flashDeal;
+    private String bestSellerBanner1;
+    private String bestSellerBannerLink1;
+    private String bigSaveBanner1;
+    private String bigSaveBannerLink1;
+    private int featuredCategory;
+
+    // Getters and Setters
+}
+ 
+public class Partner {
+    private int id;
+    private String photo;
+    private String link;
+
+    // Getters and Setters
+}
+ 
+public class PaymentGateway {
+    private int id;
+    private String subtitle;
+    private String title;
+    private String details;
+    private boolean status;
+
+    // Getters and Setters
+}
+ 
+public class InvoiceLogo {
+    private int id;
+    private String logo;
+
+    // Getters and Setters
+}
+ 
+public class UserImage {
+    private int id;
+    private String image;
+
+    // Getters and Setters
+}
+ 
+public class VendorColor {
+    private int id;
+    private String color;
+
+    // Getters and Setters
+}
+ 
+public class Secure {
+    private int id;
+    private boolean isSecure;
+
+    // Getters and Setters
+}
+ 
+public class Report {
+    private int id;
+    private boolean isReport;
+
+    // Getters and Setters
+}
+ 
+public class PaypalCheck {
+    private int id;
+    private boolean paypalCheck;
+    private String paypalBusiness;
+
+    // Getters and Setters
+}
+ 
+public class FooterLogo {
+    private int id;
+    private String logo;
+
+    // Getters and Setters
+}
+ 
+public class EmailEncryption {
+    private int id;
+    private String encryption;
+
+    // Getters and Setters
+}
+ 
+public class PaytmMerchant {
+    private int id;
+    private String merchant;
+
+    // Getters and Setters
+}
+ 
+public class PaytmSecret {
+    private int id;
+    private String secret;
+
+    // Getters and Setters
+}
+ 
+public class PaytmWebsite {
+    private int id;
+    private String website;
+
+    // Getters and Setters
+}
+ 
+public class PaytmIndustry {
+    private int id;
+    private String industry;
+
+    // Getters and Setters
+}
+ 
+public class Paytm {
+    private int id;
+    private int isPaytm;
+
+    // Getters and Setters
+}
+ 
+public class PaytmText {
+    private int id;
+    private String text;
+
+    // Getters and Setters
+}
+ 
+public class PaytmMode {
+    private int id;
+    private String mode;
+
+    // Getters and Setters
+}
+ 
+public class Molly {
+    private int id;
+    private boolean isMolly;
+
+    // Getters and Setters
+}
+ 
+public class MollyKey {
+    private int id;
+    private String key;
+
+    // Getters and Setters
+}
+
+public class MollyText {
+    private int id;
+    private String text;
+
+    // Getters and Setters
+}
+ 
+public class Razorpay {
+    private int id;
+    private int isRazorpay;
+
+    // Getters and Setters
+}
+
+public class RazorpayKey {
+    private int id;
+    private String key;
+
+    // Getters and Setters
+}
+ 
+public class RazorpaySecret {
+    private int id;
+    private String secret;
+
+    // Getters and Setters
+}
+ 
+public class RazorpayText {
+    private int id;
+    private String text;
+
+    // Getters and Setters
+}
+ 
+public class ShowStock {
+    private int id;
+    private boolean showStock;
+
+    // Getters and Setters
+}
+ 
+public class Maintain {
+    private int id;
+    private boolean isMaintain;
+
+    // Getters and Setters
+}
+ 
+public class MaintainText {
+    private int id;
+    private String text;
+
+    // Getters and Setters
+}
+ 
+public class Pickup {
+    private int id;
+    private String location;
+
+    // Getters and Setters
+}
+ 
+public class ProductClick {
+    private int id;
+    private int productId;
+    private LocalDate date;
+
+    // Getters and Setters
+}
+ 
+public class Product {
+    private int id;
+    private String sku;
+    private String productType;
+    private String affiliateLink;
+    private int userId;
+    private int categoryId;
+    private int subcategoryId;
+    private int childcategoryId;
+    private String attributes;
+    private String name;
+    private String slug;
+    private String photo;
+    private String thumbnail;
+    private String file;
+    private String size;
+    private String sizeQty;
+    private String sizePrice;
+    private String color;
+    private double price;
+    private Double previousPrice;
+    private String details;
+    private Integer stock;
+    private String policy;
+    private int status;
+    private int views;
+    private String tags;
+    private String features;
+    private String colors;
+    private int productCondition;
+    private String ship;
+    private boolean isMeta;
+    private String metaTag;
+    private String metaDescription;
+    private String youtube;
+    private String type;
+    private String license;
+    private String licenseQty;
+    private String link;
+    private String platform;
+    private String region;
+    private String licenceType;
+    private String measure;
+    private boolean featured;
+    private boolean best;
+    private boolean top;
+    private boolean hot;
+    private boolean latest;
+    private boolean big;
+    private boolean trending;
+    private boolean sale;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private boolean isDiscount;
+    private String discountDate;
+    private String wholeSellQty;
+    private String wholeSellDiscount;
+    private boolean isCatalog;
+    private int catalogId;
+
+    // Getters and Setters
+}
+ 
+public class Rating {
+    private int id;
+    private int userId;
+    private int productId;
+    private String review;
+    private int rating;
+    private LocalDateTime reviewDate;
+
+    // Getters and Setters
+}
+ 
+public class Reply {
+    private int id;
+    private int userId;
+    private int commentId;
+    private String text;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Report {
+    private int id;
+    private int userId;
+    private int productId;
+    private String title;
+    private String note;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Review {
+    private int id;
+    private String photo;
+    private String title;
+    private String subtitle;
+    private String details;
+
+    // Getters and Setters
+}
+ 
+public class Role {
+    private int id;
+    private String name;
+    private String section;
+
+    // Getters and Setters
+}
+ 
+public class SeoTool {
+    private int id;
+    private String googleAnalytics;
+    private String metaKeys;
+
+    // Getters and Setters
+}
+ 
+public class Service {
+    private int id;
+    private int userId;
+    private String title;
+    private String details;
+    private String photo;
+
+    // Getters and Setters
+}
+ 
+public class Shipping {
+    private int id;
+    private int userId;
+    private String title;
+    private String subtitle;
+    private double price;
+
+    // Getters and Setters
+}
+ 
+public class Slider {
+    private int id;
+    private String subtitleText;
+    private String subtitleSize;
+    private String subtitleColor;
+    private String subtitleAnime;
+    private String titleText;
+    private String titleSize;
+    private String titleColor;
+    private String titleAnime;
+    private String detailsText;
+    private String detailsSize;
+    private String detailsColor;
+    private String detailsAnime;
+    private String photo;
+    private String position;
+    private String link;
+
+    // Getters and Setters
+}
+ 
+public class SocialProvider {
+    private int id;
+    private int userId;
+    private String providerId;
+    private String provider;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class SocialSettings {
+    private int id;
+    private String facebook;
+    private String gplus;
+    private String twitter;
+    private String linkedin;
+    private String dribble;
+    private boolean fStatus;
+    private boolean gStatus;
+    private boolean tStatus;
+    private boolean lStatus;
+    private boolean dStatus;
+    private boolean fCheck;
+    private boolean gCheck;
+    private String fClientId;
+    private String fClientSecret;
+    private String fRedirect;
+    private String gClientId;
+    private String gClientSecret;
+    private String gRedirect;
+
+    // Getters and Setters
+}
+ 
+public class Subcategory {
+    private int id;
+    private int categoryId;
+    private String name;
+    private String slug;
+    private boolean status;
+
+    // Getters and Setters
+}
+ 
+public class Subscriber {
+    private int id;
+    private String email;
+
+    // Getters and Setters
+}
+ 
+public class Subscription {
+    private int id;
+    private String title;
+    private String currency;
+    private String currencyCode;
+    private double price;
+    private int days;
+    private int allowedProducts;
+    private String details;
+
+    // Getters and Setters
+}
+ 
+public class UserNotification {
+    private int id;
+    private int userId;
+    private String orderNumber;
+    private boolean isRead;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class UserSubscription {
+    private intid;
+    private int userId;
+    private int subscriptionId;
+    private String title;
+    private String currency;
+    private String currencyCode;
+    private double price;
+    private int days;
+    private int allowedProducts;
+    private String details;
+    private String method;
+    private String txnid;
+    private String chargeId;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private int status;
+    private String paymentNumber;
+
+    // Getters and Setters
+}
+ 
+public class User {
+    private int id;
+    private String name;
+    private String photo;
+    private String zip;
+    private String city;
+    private String country;
+    private String address;
+    private String phone;
+    private String fax;
+    private String email;
+    private String password;
+    private String rememberToken;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private boolean isProvider;
+    private int status;
+    private String verificationLink;
+    private String emailVerified;
+    private String affilateCode;
+    private double affilateIncome;
+    private String shopName;
+    private String ownerName;
+    private String shopNumber;
+    private String shopAddress;
+    private String regNumber;
+    private String shopMessage;
+    private String shopDetails;
+    private String shopImage;
+    private String fUrl;
+    private String gUrl;
+    private String tUrl;
+    private String lUrl;
+    private boolean isVendor;
+    private boolean fCheck;
+    private boolean gCheck;
+    private boolean tCheck;
+    private boolean lCheck;
+    private boolean mailSent;
+    private double shippingCost;
+    private double currentBalance;
+    private LocalDate date;
+    private boolean ban;
+
+    // Getters and Setters
+}
+ 
+public class VendorOrder {
+    private int id;
+    private int userId;
+    private int orderId;
+    private int qty;
+    private double price;
+    private String orderNumber;
+    private String status;
+
+    // Getters and Setters
+}
+ 
+public class Verification {
+    private int id;
+    private int userId;
+    private String attachments;
+    private String status;
+    private String text;
+    private boolean adminWarning;
+    private String warningReason;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
+    // Getters and Setters
+}
+ 
+public class Wishlist {
+    private int id;
+    private int userId;
+    private int productId;
+
+    // Getters and Setters
+}
+ 
+public class Withdraw {
+    private int id;
+    private int userId;
+    private String method;
+    private String accEmail;
+    private String iban;
+    private String country;
+    private String accName;
+    private String address;
+    private String swift;
+    private String reference;
+    private Double amount;
+    private Double fee;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private String status;
+    private String type;
+
+    // Getters and Setters
+}
